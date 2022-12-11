@@ -1,0 +1,7 @@
+pip-chill
+nltk
+datasets
+transformers
+numpy
+wandb
+rouge_score
