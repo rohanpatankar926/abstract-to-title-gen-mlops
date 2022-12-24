@@ -1,0 +1,41 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 37553945,
+  "description": "",
+  "download_checksums": {
+    "/home/dataguy/Downloads/abstract-to-title-generator-main/train.csv": {
+      "num_bytes": 37440908,
+      "checksum": "e165e359bca9fac825d9b1b30dc714136c2e5f99fb94e40aa691dfc88372a818"
+    }
+  },
+  "download_size": 37440908,
+  "features": {
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 74994853,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 37553945,
+      "num_examples": 14991,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
