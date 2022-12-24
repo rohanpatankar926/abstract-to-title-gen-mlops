@@ -1,0 +1,12 @@
+[ 2022-12-24 22:53:09,688 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-24 22:53:09,688 ] 18 root - INFO - Reading data from database: abstracttotitle and collection: abstract_collection
+[ 2022-12-24 22:53:29,721 ] 22 root - INFO - Found columns: Index(['_id', 'title', 'text', 'subject', 'date'], dtype='object')
+[ 2022-12-24 22:53:29,721 ] 24 root - INFO - Dropping column: _id 
+[ 2022-12-24 22:53:29,725 ] 26 root - INFO - Row and columns in df: (14991, 4)
+[ 2022-12-24 22:53:29,737 ] 29 root - INFO - Save data in feature store
+[ 2022-12-24 22:53:29,737 ] 31 root - INFO - Create feature store folder if not available
+[ 2022-12-24 22:53:29,737 ] 35 root - INFO - Save df to feature store folder
+[ 2022-12-24 22:53:30,456 ] 38 root - INFO - split dataset into train and test set
+[ 2022-12-24 22:53:32,836 ] 485 datasets.builder - WARNING - Using custom data configuration default-1cf9b92480051220
+[ 2022-12-24 22:53:34,727 ] 51 root - INFO - create dataset directory folder if not available
+[ 2022-12-24 22:53:34,727 ] 66 root - INFO - Data ingestion artifact: DataIngestionArtifact(feature_store_file_path='/home/dataguy/Downloads/abstract-to-title-generator-main/artifact/12242022__225309/data_ingestion/feature_store/abstract.csv')

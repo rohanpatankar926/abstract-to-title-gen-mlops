@@ -1,0 +1,2 @@
+[ 2022-12-24 22:46:52,841 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-24 22:46:52,841 ] 18 root - INFO - Reading data from database: abstracttotitle and collection: abstract_collection

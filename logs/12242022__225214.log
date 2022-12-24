@@ -1,0 +1,10 @@
+[ 2022-12-24 22:52:16,105 ] 22 root - INFO - Exporting collection data as pandas dataframe
+[ 2022-12-24 22:52:16,105 ] 18 root - INFO - Reading data from database: abstracttotitle and collection: abstract_collection
+[ 2022-12-24 22:52:40,928 ] 22 root - INFO - Found columns: Index(['_id', 'title', 'text', 'subject', 'date'], dtype='object')
+[ 2022-12-24 22:52:40,928 ] 24 root - INFO - Dropping column: _id 
+[ 2022-12-24 22:52:40,939 ] 26 root - INFO - Row and columns in df: (14991, 4)
+[ 2022-12-24 22:52:40,970 ] 29 root - INFO - Save data in feature store
+[ 2022-12-24 22:52:40,971 ] 31 root - INFO - Create feature store folder if not available
+[ 2022-12-24 22:52:40,972 ] 35 root - INFO - Save df to feature store folder
+[ 2022-12-24 22:52:41,762 ] 38 root - INFO - split dataset into train and test set
+[ 2022-12-24 22:52:44,387 ] 485 datasets.builder - WARNING - Using custom data configuration default-0bf29be732bf5304
